@@ -60,6 +60,7 @@ header nav ul li span.seleccionado {
     height: 2px;
     width: 100%;
 }
+
 /* SECCION  I N I C I O */
 #inicio{
     position: relative;
@@ -121,7 +122,7 @@ header nav ul li span.seleccionado {
     background-color: #4c4c4c;
 }
 #inicio .contenedor-img .imagen{
-    background-image: url("img/foto-pol.jpeg");
+    background-image: url("img/img-inicio.jpeg");
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -174,12 +175,13 @@ header nav ul li span.seleccionado {
 #sobremi .contenido .left .contenedor-img img{
     width: 100%;
 }
+
 /* SECCION  P O R T F O L I O  */
 #portfolio{
     background-color: #f9f9f9;
 }
 #portfolio .contenido {
-    padding: 150px 130px;
+    padding: 130px 60px;
     max-width: 1200px;
     margin: auto;
 }
@@ -223,6 +225,8 @@ header nav ul li span.seleccionado {
 #portfolio .galeria .proyecto{
     position: relative;
     overflow: hidden;
+    border: black solid 2px;
+    border-radius: 4px;
 }
 #portfolio .galeria .proyecto h3{
     position: absolute;
@@ -240,86 +244,155 @@ header nav ul li span.seleccionado {
 #portfolio .galeria .proyecto:hover img{
     transform: scale(1.1);
 }
+
+
+/* SECCION  S K I L L S  */
+#skills{
+    background-color: #ffffff;
+}
+#skills .contenido {
+    padding: 150px 130px;
+    max-width: 120px;
+    margin: auto;
+}
+#skills .contenido .left span {
+    display: inline-block;
+    background-color: #f2f2f2;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+#skills .contenido .encabezado-skills{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+/* #skills .contenido .encabezado-skills a{
+    text-decoration: none;
+    display: grid;
+    grid-row: auto;
+    color: #000;
+    padding: 5px 15px;
+} */
+/* .activada{
+    background-color: #000;
+    color: #fff !important;
+} */
+#skills .contenido .left h3{
+    font-size: 30px;
+    line-height: 1.4;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+#skills .galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 30px;
+}
+#skills .galeria img{
+    width: 100%;
+    transition: .5s;
+}
+/* #skills .galeria .proyecto{
+    position: relative;
+    overflow: hidden;
+} */
+#skills .galeria .proyecto h3{
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    width: 100%;
+    background-color: rgba(0 0 0 / 50%);
+    color: #fff;
+    transition: .5s;
+    opacity: 0;
+}
+#skills .galeria .proyecto:hover img{
+    opacity: 1;
+}
+#skills .galeria .proyecto:hover img{
+    transform: scale(1.1);
+}
+
 /* *********************/
-        /* seccion C O N T A C T O */
-        /* *********************/
-        
-        #contacto {
-            padding: 100px 15px;
-            background-color: #f3f3f3;
-        }
-        
-        #contacto .titulo-seccion {
-            margin-bottom: 20px;
-        }
-        
-        #contacto .contenedor-form {
-            max-width: 1100px;
-            margin: auto;
-        }
-        
-        #contacto .contenedor-form .fila {
-            margin-bottom: 15px;
-        }
-        
-        #contacto .contenedor-form .mitad {
-            display: flex;
-            justify-content: space-between;
-        }
-        
-        #contacto .contenedor-form input,
-        #contacto .contenedor-form textarea {
-            padding: 20px;
-            border-radius: 20px;
-            border: none;
-            border: 1px solid #919191;
-        }
-        
-        #contacto .contenedor-form .mitad input {
-            width: 48%;
-        }
-        
-        #contacto .contenedor-form .input-full {
-            width: 100%;
-        }
-        
-        #contacto .titulo-seccion {
-            text-align: center;
-            font-size: 22px;
-            text-transform: uppercase;
-            color: #111135;
-            text-decoration: underline;
-            text-decoration-color: #d3d3d3;
-            text-decoration-thickness: 5px;
-        }
-        
-        #contacto .btn-enviar {
-            display: block;
-            margin: auto;
-            cursor: pointer;
-            transition: .5s;
-            padding: 10px 15px !important;
-        }
-        
-        #contacto .btn-enviar:hover {
-            background-color: #ff5080;
-            color: #fff;
-        }
-        /* *********************/
-        /* seccion F O O T E R */
-        /* *********************/
-        
-        footer {
-            background-color: #000;
-            color: #fff;
-            text-align: center;
-            padding: 30px 0;
-        }
-        
-        footer a {
-            text-decoration: none;
-            color: #fff;
-            display: inline-block;
-            margin: 5px;
-            font-size: 26px;
-        }
+/* seccion C O N T A C T O */
+/* *********************/        
+#contacto {
+    padding: 100px 15px;
+    background-color: #f3f3f3;
+}
+
+#contacto .titulo-seccion {
+    margin-bottom: 20px;
+}
+
+#contacto .contenedor-form {
+    max-width: 1100px;
+    margin: auto;
+}
+
+#contacto .contenedor-form .fila {
+    margin-bottom: 15px;
+}
+
+#contacto .contenedor-form .mitad {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contacto .contenedor-form input,
+#contacto .contenedor-form textarea {
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    border: 1px solid #919191;
+}
+
+#contacto .contenedor-form .mitad input {
+    width: 48%;
+}
+
+#contacto .contenedor-form .input-full {
+    width: 100%;
+}
+
+#contacto .titulo-seccion {
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #111135;
+    text-decoration: underline;
+    text-decoration-color: #d3d3d3;
+    text-decoration-thickness: 5px;
+}
+
+#contacto .btn-enviar {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    transition: .5s;
+    padding: 10px 15px !important;
+}
+
+#contacto .btn-enviar:hover {
+    background-color: #ff5080;
+    color: #fff;
+}
+/* *********************/
+/* seccion F O O T E R */
+/* *********************/
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin: 5px;
+    font-size: 26px;
+}
