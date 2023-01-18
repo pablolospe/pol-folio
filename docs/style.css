@@ -128,6 +128,9 @@ header nav ul li span.seleccionado {
     height: 100vh;
     background-position: center;
 }
+
+/* SECCION  S O B R E   M I  */
+
 #sobremi .contenido{
     padding: 150px 30px;
     max-width: 1200px;
@@ -173,7 +176,8 @@ header nav ul li span.seleccionado {
     color: #000;
 }
 #sobremi .contenido .left .contenedor-img img{
-    width: 100%;
+    width: 87%;
+    border-radius: 10px;
 }
 
 /* SECCION  P O R T F O L I O  */
