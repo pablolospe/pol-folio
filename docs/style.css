@@ -256,6 +256,7 @@ header nav ul li span.seleccionado {
 /* SECCION  S K I L L S  */
 #skills{
     background-color: #ffffff;
+    margin: 100px 50px;
 }
 /* #skills .contenido .left{
     background-color: orange;
@@ -266,7 +267,7 @@ header nav ul li span.seleccionado {
 } */
 #skills .contenido .left {
     background-color: #f2f2f2;
-    padding: 150px;
+    padding: 150px 70px 70px 70px;
     /* margin-bottom: 15px; */
 }
 #skills .contenido .encabezado{
@@ -274,6 +275,7 @@ header nav ul li span.seleccionado {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 15px;
+    gap: 30px;
 }
 /* #skills .contenido .encabezado-skills a{
     text-decoration: none;
@@ -291,8 +293,8 @@ header nav ul li span.seleccionado {
 }
 #skills .skills .contenedor-skills{
     background-color: red;
-    
-    
+    display: grid;
+    justify-content: space-between;
 }
 /* #skills .galeria{
     display: grid;
