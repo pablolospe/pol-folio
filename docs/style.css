@@ -410,9 +410,9 @@ footer a {
 /* *****************************/
 
 @media screen and (max-width:800px) {
-    .redes {
+    /* .redes {
         display: none;
-    }
+    } */
     nav {
         display: none;
     }
@@ -439,6 +439,32 @@ footer a {
     #icono-nav{
         display: block;
         cursor: pointer;
+    }
+    #inicio .contenido .info h3 {
+        font-size: 30px;
+    }
+    #inicio .contenido .info span {
+        display: none;
+    }
+    
+    #sobremi{
+        padding: 50px 0;
+        display: block;
+        
+    }
+    #sobremi .contenido{
+        flex-direction: column;
+    }
+    #sobremi .contenedor-img{
+        text-align: center;
+        max-width: 200px;
+        margin: auto;
+    }
+    #sobremi .contenedor-img img{
+        padding: 8px;
+    }
+    #sobremi .right .info{
+        text-align: center;
     }
 
 }
