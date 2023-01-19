@@ -307,6 +307,8 @@ header nav ul li span.seleccionado {
 #skills .galeria img{
     width: 100%;
     max-height: 80px;
+    min-height: 40px;
+    min-width: 40px;
     transition: .5s;
 }
 #skills .galeria {
@@ -415,23 +417,28 @@ footer a {
         display: none;
     }
     nav.responsive{
+        font-weight: bolder;
         display: block;
-        background-color: rgba(0, 0, 0, .8);
-        width: 100%;
+        background-color: rgba(255, 255, 255, 0.9);
+        width: fit-content;
         position: absolute;
         top: 48px;
-        left: 0;
-        padding: 10px 0;
+        right: 50px;
+        padding: 10px 30px;
+        border-radius: 10px;
     }
     nav.responsive ul{
         display: block !important;
         text-align: center;
     }
     nav.responsive ul li{
-        margin: 5px 0;
+        text-shadow: -2px 2px 5px white; 
+        margin: 5px;
+        padding: 5px;
     }
     #icono-nav{
         display: block;
+        cursor: pointer;
     }
 
 }

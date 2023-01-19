@@ -1,4 +1,4 @@
-function responsiveManu(){
+function responsiveMenu(){
     var x = document.getElementById('nav');
     if(x.className===''){
         x.className = 'responsive';
