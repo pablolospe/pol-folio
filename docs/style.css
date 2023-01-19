@@ -63,6 +63,9 @@ header nav ul li span.seleccionado {
     height: 2px;
     width: 100%;
 }
+#icono-nav{
+    display: none;
+}
 
 /* SECCION  I N I C I O */
 #inicio{
@@ -399,4 +402,36 @@ footer a {
     display: inline-block;
     margin: 5px;
     font-size: 26px;
+}
+/* *****************************/
+/* seccion R E S P O N S I V E */
+/* *****************************/
+
+@media screen and (max-width:800px) {
+    .redes {
+        display: none;
+    }
+    nav {
+        display: none;
+    }
+    nav.responsive{
+        display: block;
+        background-color: rgba(0, 0, 0, .8);
+        width: 100%;
+        position: absolute;
+        top: 48px;
+        left: 0;
+        padding: 10px 0;
+    }
+    nav.responsive ul{
+        display: block !important;
+        text-align: center;
+    }
+    nav.responsive ul li{
+        margin: 5px 0;
+    }
+    #icono-nav{
+        display: block;
+    }
+
 }
