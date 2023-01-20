@@ -171,13 +171,16 @@ header nav ul li span.seleccionado {
 #sobremi .contenido .right .info .btn-descargar{
     display: inline-block;
     text-decoration: none;
+    text-align: center;
     background-color: #000;
     color: #fff;
+    min-width: 150px;
     padding: 13px 48px;
     border: 2px solid #000;
     margin: 3px;
     transition: .5s;
 }
+
 #sobremi .contenido .right .info .btn-descargar:hover{
     background-color: #fff;
     color: #000;
@@ -474,7 +477,7 @@ footer a {
         width: 100%;
         padding-left: 0px;
     }
-    #sobremi .contenido .right .info .btn-descargar{
+    /* #sobremi .contenido .right .info .btn-descargar{
         display: inline-block;
         
         background-color: #000;
@@ -483,5 +486,5 @@ footer a {
         border: 2px solid #000;
         margin: 3px;
         transition: .5s;
-    }
+    } */
 }
