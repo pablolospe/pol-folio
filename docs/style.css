@@ -263,56 +263,48 @@ header nav ul li span.seleccionado {
 /* SECCION  S K I L L S  */
 #skills{
     background-color: #f9f9f9;
-    margin: 90px 50px;
+}
+#skills .contenido{
+    /* margin: 90px; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* gap: 30px; */
 }
 #skills .contenido .left {
     background-color: #f9f9f9;
-    /* background-color: red; */
-    padding: 150px 70px 70px 70px;
-    /* margin-bottom: 15px; */
-}
-#skills .contenido .right {
-    background-color: #f9f9f9;
-    /* background-color: red; */
-    padding: 0px 30px 70px 30px;
-    /* margin-bottom: 15px; */
+    padding: 150px 0px 0px 40px;
+    margin-left: 30px;
 }
 #skills .contenido .left span {
     display: inline-block;
-    background-color: #f2f2f2;
+    background-color: #f0f0f0;
     padding: 15px;
     margin-bottom: 15px;
 }
-#skills .contenido .encabezado{
+#skills .contenido .right {
+    background-color: #f9f9f9;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* margin-bottom: 15px; */
-    gap: 30px;
+    flex-basis: 40%;
+    text-align: center;
+    /* background-color: red; */
 }
-#skills .skills .contenedor-skills{
-    background-color: red;
-    display: grid;
-    justify-content: space-between;
+#skills .contenedor-skills .proyecto {
+    /* max-height: 100px; */
+    /* min-height: auto; */
+    /* min-width: 40px; */
+    text-decoration: none;
 }
-
-#skills .galeria img{
-    width: 100%;
-    max-height: 80px;
-    min-height: auto;
-    min-width: 40px;
+#skills .contenedor-skills .proyecto img{
+    margin: 40px 50px 40px 50px;
     transition: .5s;
-}
-#skills .galeria {
-    position: relative;
-    overflow: hidden;
-}
 
-#skills .galeria .proyecto:hover img{
+}
+#skills .contenedor-skills .proyecto:hover img{
     opacity: 1;
 }
-#skills .galeria .proyecto:hover img{
-    transform: scale(1.1);
+#skills .contenedor-skills .proyecto:hover img{
+    transform: scale(1.2);
 }
 
 /* *********************/
@@ -404,7 +396,6 @@ footer a {
 @media screen and (max-width:800px) {
     .redes {
         margin: 0px 7px;
-        
     }
     nav {
         display: none;
@@ -415,10 +406,10 @@ footer a {
         background-color: rgba(255, 255, 255, 0.9);
         width: fit-content;
         position: absolute;
-        top: 48px;
+        top: 60px;
         right: 50px;
         padding: 10px 30px;
-        border-radius: 10px;
+        border-radius: 3px;
     }
     nav.responsive ul{
         display: block !important;
@@ -444,7 +435,7 @@ footer a {
 
     /* S O B R E   M I */
     #sobremi{
-        padding: 50px 0;
+        padding: 40px 0px;
         display: block;
     }
     #sobremi .contenido{
@@ -469,24 +460,27 @@ footer a {
         padding-left: 0px;
     }
     /* S K I L L S */
-    #skills{
-        padding: 50px 5px 200px;
+    
+    /* #skills{
+        padding: 40px 5px 200px;
         margin-left: 0px;
         margin-right: 0px;
-    }
-    #skills .left .contenido span{
-        /* display: flex; */
+    } */
+    /* #skills .left .contenido span{
+        display: flex;
         margin-left: -20px;
-
-    }
-    #skills .right .contenedor-skills .galeria{
+    } */
+    /* #skills .right .contenedor-skills .galeria{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 10px;
         grid-auto-rows: 100px;
-    }
-    #skills .right .contenedor-skills .galeria .proyecto{
-        /* display: flex; */
+    } */
+    #skills .right .contenedor-skills .proyecto img{
+        /* display: flex;  */
         /* flex-direction: row; */
+        max-height: 40px;
+    
+    min-width: 40px;
     }
 }
