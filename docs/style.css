@@ -402,9 +402,10 @@ footer a {
 /* *****************************/
 
 @media screen and (max-width:800px) {
-    /* .redes {
-        display: none;
-    } */
+    .redes {
+        margin: 0px 7px;
+        
+    }
     nav {
         display: none;
     }
@@ -429,6 +430,7 @@ footer a {
         padding: 5px;
     }
     #icono-nav{
+        margin-top: 16px;
         display: block;
         cursor: pointer;
     }
@@ -466,15 +468,25 @@ footer a {
         width: 100%;
         padding-left: 0px;
     }
-
+    /* S K I L L S */
     #skills{
-        padding: 50px 15px;
+        padding: 50px 5px 200px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
-    #skills .right .galeria{
-        display: flex;
-        flex-direction: row;
-        /* background-color: red;     */
-        overflow: scroll;  
-        scroll-behavior: smooth;
+    #skills .left .contenido span{
+        /* display: flex; */
+        margin-left: -20px;
+
+    }
+    #skills .right .contenedor-skills .galeria{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+        grid-auto-rows: 100px;
+    }
+    #skills .right .contenedor-skills .galeria .proyecto{
+        /* display: flex; */
+        /* flex-direction: row; */
     }
 }
