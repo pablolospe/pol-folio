@@ -107,7 +107,7 @@ header nav ul li span.seleccionado {
     color: #fff;
     -webkit-text-stroke: 2px #000;
     padding-left: 2px;
-    text-shadow: 3px 3px #000;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.4);
     letter-spacing: 5px;
 }
 #inicio .contenido .info span{
@@ -121,7 +121,7 @@ header nav ul li span.seleccionado {
     color: #6f6f6f;
     margin-right: 15px;
     font-size: 20px;
-    transition: .5s;
+    transition: .7s;
 }
 #inicio .contenido .info .redes a:hover {
     color: black;
