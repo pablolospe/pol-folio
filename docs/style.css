@@ -155,9 +155,13 @@ header nav ul li span.seleccionado {
     display: flex;
 }
 #sobremi .contenido .left{
+    max-height: fit-content;
+
     width: 50%;
 }
 #sobremi .contenido .right{
+    max-height: fit-content;
+
     width: 50%;
     padding-left: 50px;
 }
@@ -197,7 +201,7 @@ header nav ul li span.seleccionado {
     color: #000;
 }
 #sobremi .contenido .left .contenedor-img img{
-    width: 87%;
+    width: 90%;
     border-radius: 10px;
 }
 
@@ -274,6 +278,7 @@ header nav ul li span.seleccionado {
 /* SECCION  S K I L L S  */
 #skills{
     background-color: #f9f9f9;
+    padding-bottom: 120px;
 }
 #skills .contenido .left {
     background-color: #f9f9f9;
@@ -298,7 +303,6 @@ header nav ul li span.seleccionado {
 #skills .contenedor-skills .proyecto img{
     margin: 40px 50px 40px 50px;
     transition: .5s;
-
 }
 #skills .contenedor-skills .proyecto:hover img{
     opacity: 1;
