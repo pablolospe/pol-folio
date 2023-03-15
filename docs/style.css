@@ -25,8 +25,8 @@ header{
 header h1{
     /* font-family: Courgette; */
     /* background-color: rgba(255,255,255, 35%); */
-    padding: 0px 30px 10px;
-    border-radius: 10px;
+    /* padding: 0px 30px 10px; */
+    /* border-radius: 10px; */
 }
 header nav ul{
     display: flex;
@@ -398,6 +398,10 @@ footer a {
 /* *****************************/
 
 @media screen and (max-width:800px) {
+    h1 {
+        font-size: 20px;
+        position:static;
+    }
     .redes {
         margin: 0px 7px;
     }
