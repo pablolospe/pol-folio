@@ -419,6 +419,9 @@ footer a {
         padding: 10px 30px;
         border-radius: 3px;
     }
+    .collapse {
+        display: none;
+      }      
     nav.responsive ul{
         display: block !important;
         text-align: center;
