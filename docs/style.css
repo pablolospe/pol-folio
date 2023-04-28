@@ -460,6 +460,9 @@ footer a {
         margin: 10px 15px 0 15px;
         padding: 10px 0 0 0;
     }
+    #sobremi .contenido .right .info h3{
+        display: none;
+    }
 
     #sobremi .contenedor-img{
         align-items: center;
