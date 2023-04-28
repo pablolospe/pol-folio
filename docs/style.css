@@ -457,7 +457,10 @@ footer a {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin: 10px 15px 0 15px;
+        padding: 10px 0 0 0;
     }
+
     #sobremi .contenedor-img{
         align-items: center;
         text-align: center;
@@ -474,17 +477,50 @@ footer a {
         width: 100%;
         padding-left: 0px;
     }
+    /* P O R T F O L I O */
+    #portfolio{
+        padding: 40px 0px;
+        display: block;
+    }
+    #portfolio .contenido{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 15px 0 15px;
+        padding: 20px 15px 0 15px;
+    }
+    #portfolio .contenedor-img{
+        align-items: center;
+        text-align: center;
+        max-width: 200px;
+        margin: auto;
+    }
+    #portfolio .contenedor-img img{
+        padding: 8px;
+    }
+    #portfolio .right .info{
+        text-align: center;
+    }   
+    #portfolio .contenido .right{
+        width: 100%;
+        padding-left: 0px;
+    }
     /* S K I L L S */
     
-    /* #skills{
-        padding: 40px 5px 200px;
-        margin-left: 0px;
-        margin-right: 0px;
-    } */
-    /* #skills .left .contenido span{
+    #skills .contenido{
         display: flex;
-        margin-left: -20px;
-    } */
+        flex-direction: column;
+        align-items: center;
+    }
+    #skills .contenido .left{
+        margin: 40px 0 0 0;
+        padding: 30px 0 0 0;
+    }
+    #skills .left .contenido span{
+        align-items: center;
+        display: flex;
+        /* margin-left: -20px; */
+    }
     /* #skills .right .contenedor-skills .galeria{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -497,5 +533,14 @@ footer a {
         max-height: 40px;
     
     min-width: 40px;
+    }
+
+    #contacto {
+        margin-top: 20px;
+        padding-top: 60px;
+    }
+    #contacto .titulo-seccion h3{
+        margin: 20px 0 20px 0;
+        padding-top: 0;
     }
 }
