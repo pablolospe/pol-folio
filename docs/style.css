@@ -80,6 +80,9 @@ header nav ul li span.seleccionado {
    height: 100%;
 } 
 #inicio .contenido .info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position: relative;
   top: 50%;
   left: 50%;
@@ -100,18 +103,26 @@ header nav ul li span.seleccionado {
     }
 }
 #inicio .contenido .info h3{
-    font-size: 50px;
-    color: #fff;
-    -webkit-text-stroke: 2px #000;
-    padding-left: 2px;
-    text-shadow: 3px 3px rgba(0, 0, 0, 0.2);
-    letter-spacing: 5px;
+    font-size: 40px;
+    color: rgb(17, 17, 53, 0.9);
+    /* color: #fff; */
+    /* -webkit-text-stroke: 2px #000; */
+    /* padding-left: 2px; */
+    /* text-shadow: 3px 3px rgba(0, 0, 0, 0.2); */
+    letter-spacing: 4px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #inicio .contenido .info span{
     display: inline-block;
     font-size: 25px;
     color: #4c4c4c;
     margin-bottom: 15px;
+}
+#inicio .contenido .info .redes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 #inicio .contenido .info .redes a{
     display: inline-block;
@@ -285,6 +296,9 @@ header nav ul li span.seleccionado {
     background-color: #f9f9f9;
     padding-bottom: 120px;
 }
+#skills .contenido {
+   padding: 0 40px;
+}
 #skills .contenido .left {
     background-color: #f9f9f9;
     padding: 150px 0px 0px 40px;
@@ -398,9 +412,9 @@ footer a {
     margin: 5px;
     font-size: 26px;
 }
-/* *****************************/
-/* seccion R E S P O N S I V E */
-/* *****************************/
+/* ****************************************************************************/
+/*               seccion R E S P O N S I V E              *********************/
+/* ****************************************************************************/
 
 @media screen and (max-width:800px) {
     h1 {
@@ -442,8 +456,16 @@ footer a {
         cursor: pointer;
     }
 
+    #inicio {
+        /* text-align: center;
+        align-items: center; */
+        margin: 0;
+        padding: 0;
+    }
     #inicio .contenido .info h3 {
-        font-size: 30px;
+        font-size: 21px;
+        font-weight: normal;
+        -webkit-text-stroke: 1.5px #000;
     }
     #inicio .contenido .info span {
         display: none;
@@ -512,6 +534,7 @@ footer a {
     /* S K I L L S */
     
     #skills .contenido{
+        padding: 0 0px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -532,11 +555,9 @@ footer a {
         grid-auto-rows: 100px;
     } */
     #skills .right .contenedor-skills .proyecto img{
-        /* display: flex;  */
-        /* flex-direction: row; */
+        margin: 20px 25px;
         max-height: 40px;
-    
-    min-width: 40px;
+        min-width: 40px;
     }
 
     #contacto {
