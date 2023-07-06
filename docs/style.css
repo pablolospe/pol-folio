@@ -298,14 +298,14 @@ header nav ul li span.seleccionado {
 /* SECCION  S K I L L S  */
 #skills{
     background-color: #f9f9f9;
-    padding-bottom: 120px;
+    padding-bottom: 80px;
 }
 #skills .contenido {
-   padding: 0 40px;
+   padding: 120px 40px;
 }
 #skills .contenido .left {
     background-color: #f9f9f9;
-    padding: 150px 0px 0px 40px;
+    padding: 20px 40px 0px 40px;
     margin-left: 30px;
     
 }
@@ -340,7 +340,7 @@ header nav ul li span.seleccionado {
 /* seccion C O N T A C T O */
 /* *********************/        
 #contacto {
-    padding: 100px 15px;
+    padding: 80px 15px;
     background-color: #f3f3f3;
 }
 
