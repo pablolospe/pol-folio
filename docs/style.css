@@ -198,8 +198,8 @@ header nav ul li span.seleccionado {
     text-align: center;
     background-color: #000;
     color: #fff;
-    min-width: 160px;
-    max-width: 160px;
+    min-width: 120px;
+    max-width: 120px;
     padding: 12px;
     border: 2px solid rgba(0, 0, 0, 0.2);  
     margin: 2px 1px;
@@ -264,7 +264,7 @@ header nav ul li span.seleccionado {
 }
 #portfolio .galeria{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     grid-gap: 48px;
 }
 #portfolio .galeria img{
@@ -322,10 +322,12 @@ header nav ul li span.seleccionado {
     flex-basis: 40%;
     text-align: center;
 }
+
 #skills .contenedor-skills .proyecto {
     text-decoration: none;
 }
 #skills .contenedor-skills .proyecto img{
+    max-height: 60px;
     margin: 40px 50px 40px 50px;
     transition: .5s;
 }
