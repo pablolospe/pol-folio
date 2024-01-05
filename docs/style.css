@@ -102,16 +102,23 @@ header nav ul li span.seleccionado {
         opacity: 1;
     }
 }
-#inicio .contenido .info h3{
-    font-size: 40px;
+#inicio .info h3{
+    font-size: 3rem;
     color: rgb(17, 17, 53, 0.9);
     /* color: #fff; */
     /* -webkit-text-stroke: 2px #000; */
     /* padding-left: 2px; */
-    /* text-shadow: 3px 3px rgba(0, 0, 0, 0.2); */
-    letter-spacing: 4px;
-    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+    letter-spacing: 2px;
+    /* font-family: Arial, Helvetica, sans-serif; */
 }
+#inicio .info p{
+    font-size: 1.5rem;
+    color: rgb(17, 17, 53, 0.8);
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.1);
+    letter-spacing: 2px;
+}
+
 #inicio .contenido .info span{
     display: inline-block;
     font-size: 25px;
@@ -157,23 +164,33 @@ header nav ul li span.seleccionado {
 /* SECCION  S O B R E   M I  */
 
 #sobremi .contenido{
-    padding: 130px 30px;
+    padding: 5rem 30px;
     max-width: 1200px;
-    margin: auto;
+    /* margin: auto; */
     display: flex;
+    align-items: center;
+    /* flex-direction: row;
+    justify-content: space-evenly; */
 }
-#sobremi .contenido .left{
+#sobremi .contenido .left .cuerpo img{
+    display: none;
     max-height: fit-content;
-
-    width: 50%;
+    width: 10%;
 }
-#sobremi .contenido .right{
+#sobremi .contenido .right span{
+    margin-left: 7rem;
+}
+#sobremi .contenido .right .info .cuerpo{
+    padding-inline: 30%;
     max-height: fit-content;
-
-    width: 50%;
-    padding-left: 50px;
+    /* margin-left: 10rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
-#sobremi .contenido .right .info span{
+#sobremi .contenido .right .info span {
     display: inline-block;
     background-color: #f2f2f2;
     padding: 15px;
@@ -198,8 +215,8 @@ header nav ul li span.seleccionado {
     text-align: center;
     background-color: #000;
     color: #fff;
-    min-width: 120px;
-    max-width: 120px;
+    min-width: 6rem;
+    max-width: 6rem;
     padding: 12px;
     border: 2px solid rgba(0, 0, 0, 0.2);  
     margin: 2px 1px;
@@ -493,6 +510,11 @@ footer a {
     }
     #sobremi .contenido .right .info h3{
         display: none;
+    }
+    #sobremi .contenido .left{
+        max-height: fit-content;
+    
+        width: 50%;
     }
 
     #sobremi .contenedor-img{
