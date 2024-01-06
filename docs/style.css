@@ -166,50 +166,51 @@ header nav ul li span.seleccionado {
 #sobremi .contenido{
     padding: 5rem 30px;
     max-width: 1200px;
-    /* margin: auto; */
+    
     display: flex;
     align-items: center;
-    /* flex-direction: row;
-    justify-content: space-evenly; */
+    
 }
-#sobremi .contenido .left .cuerpo img{
-    display: none;
-    max-height: fit-content;
-    width: 10%;
-}
-#sobremi .contenido .right span{
-    margin-left: 7rem;
-}
-#sobremi .contenido .right .info .cuerpo{
-    padding-inline: 30%;
-    max-height: fit-content;
-    /* margin-left: 10rem; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-}
-#sobremi .contenido .right .info span {
+#sobremi .contenido .info span {
     display: inline-block;
     background-color: #f2f2f2;
     padding: 15px;
     margin-bottom: 15px;
     border-radius: 4px;
 }
-#sobremi .contenido .right .info h3{
+#sobremi .contenedor-img img{
+    max-height: 10rem;
+}
+#sobremi .contenido .info .cuerpo{
+    padding-inline: 10%;
+    max-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#sobremi .contenido .info h3{
     font-size: 30px;
     line-height: 1.4;
     font-weight: 800;
     margin-bottom: 15px;
 }
-#sobremi .contenido .right .info p{
+#sobremi .contenido .info p{
     font-size: 15px;
     color: #767676;
     line-height: 30px;
     margin-bottom: 15px;
 }
-#sobremi .contenido .right .info .btn-descargar{
+#sobremi .contenido .info .btn-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    margin-inline: 20%;
+}
+#sobremi .contenido .info .btn-descargar{
     display: inline-block;
     text-decoration: none;
     text-align: center;
@@ -219,18 +220,14 @@ header nav ul li span.seleccionado {
     max-width: 6rem;
     padding: 12px;
     border: 2px solid rgba(0, 0, 0, 0.2);  
-    margin: 2px 1px;
+    margin: 2px 2px;
     transition: .5s;
     border-radius: 8px;
 }
 
-#sobremi .contenido .right .info .btn-descargar:hover{
+#sobremi .contenido .info .btn-descargar:hover{
     background-color: #fff;
     color: #000;
-}
-#sobremi .contenido .left .contenedor-img img{
-    width: 90%;
-    border-radius: 16px;
 }
 
 /* SECCION  P O R T F O L I O  */
@@ -501,38 +498,31 @@ footer a {
         padding: 40px 0px;
         display: block;
     }
-    #sobremi .contenido{
+    #sobremi .contenido .info{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 10px 15px 0 15px;
-        padding: 10px 0 0 0;
+        
+        /* margin: 10px 15px 0 15px; */
+    }
+    #sobremi .contenido .info span {
+        display: inline-block;
+        background-color: #f2f2f2;
+        /* padding: 15px; */
+        margin-bottom: 15px;
+        border-radius: 4px;
     }
     #sobremi .contenido .right .info h3{
         display: none;
     }
-    #sobremi .contenido .left{
-        max-height: fit-content;
     
-        width: 50%;
+    #sobremi .contenido .btn-container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
     }
 
-    #sobremi .contenedor-img{
-        align-items: center;
-        text-align: center;
-        max-width: 200px;
-        margin: auto;
-    }
-    #sobremi .contenedor-img img{
-        padding: 8px;
-    }
-    #sobremi .right .info{
-        text-align: center;
-    }   
-    #sobremi .contenido .right{
-        width: 100%;
-        padding-left: 0px;
-    }
     /* P O R T F O L I O */
     #portfolio{
         padding: 40px 0px;
