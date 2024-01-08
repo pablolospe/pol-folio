@@ -121,7 +121,7 @@ header nav ul li span.seleccionado {
 
 #inicio .contenido .info span{
     display: inline-block;
-    font-size: 25px;
+    font-size: 1rem;
     color: #4c4c4c;
     margin-bottom: 15px;
 }
