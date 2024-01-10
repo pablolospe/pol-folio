@@ -235,7 +235,7 @@ header nav ul li span.seleccionado {
     background-color: #f9f9f9;
 }
 #portfolio .contenido {
-    padding: 80px 60px;
+    padding: 60px;
     text-decoration: none;
     max-width: 1200px;
     margin: auto;
@@ -308,6 +308,37 @@ header nav ul li span.seleccionado {
     transform: scale(1.1);
 }
 
+#portfolio .details{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: 48px;
+    background-color: #f3f3f3;
+    padding: 2rem;   
+    border: 2px solid rgba(0, 0, 0, 0.2);  
+    border-radius: 0.5rem;
+}
+
+#portfolio .custom-summary {
+    cursor: pointer;
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    min-width: 6rem;
+    padding: 0.5rem;
+    border: 2px solid rgba(0, 0, 0, 0.2);  
+    margin: 2px 2px;
+    transition: .5s;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+}
+#portfolio .custom-summary:hover{
+    background-color: #fff;
+    color: #000;
+}
+  
 
 /* SECCION  S K I L L S  */
 #skills{
@@ -550,6 +581,39 @@ footer a {
     #portfolio .contenido .right{
         width: 100%;
         padding-left: 0px;
+    }
+
+    #portfolio .details{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        /* grid-gap: 48px; */
+        background-color: #f3f3f3;
+        /* padding: 2rem;    */
+        border: 0px;  
+        border-radius: 0.5rem;
+    }
+/* 
+    #portfolio .custom-summary {
+        cursor: pointer;
+        list-style: none;
+        display: inline-block;
+        text-decoration: none;
+        text-align: center;
+        background-color: #000;
+        color: #fff;
+        min-width: 6rem;
+        padding: 0.5rem;
+        border: 2px solid rgba(0, 0, 0, 0.2);  
+        margin: 2px 2px;
+        transition: .5s;
+        border-radius: 0.5rem;
+        margin: 1rem 0;
+        outline-offset: 0;
+    } */
+    #portfolio .custom-summary:hover{
+        align-self: center;
+        color: #fff;
+        background-color: #000;
     }
     /* S K I L L S */
     
