@@ -284,6 +284,7 @@ header nav ul li span.seleccionado {
 }
 #portfolio .galeria img{
     width: 100%;
+    height: 52%;
     transition: .5s;
 }
 #portfolio .galeria .proyecto{
